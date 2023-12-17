@@ -1,0 +1,16 @@
+{
+  "name": "postgresreacttodoapp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "if-env TYPE=server( cd client && npm install) || ( cd server && npm install )",
+    "client": "cd client && npm run dev",
+    "server": "node ./server/server.js"
+  },
+  "keywords": [],
+  "author": "glodielukose",
+  "license": "MIT",
+  "dependencies": {
+    "if-env": "^1.0.4"
+  }
+}
