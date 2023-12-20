@@ -12,7 +12,7 @@ Une application Todolist utilisant React, Node.js, Express.js, et PostgreSQL.
 
 1. Clonez le projet : `git clone https://github.com/glodielukose/PostgresReactTodoApp.git`
 2. Accédez au répertoire : `cd PostgresReactTodoApp`
-3. Installez les dépendances : `npm install`
+3. Installez les dépendances : `npm build`
 4. Créez une base de données PostgreSQL et configurez les paramètres dans le fichier `.env`.
 
 ## Configuration
