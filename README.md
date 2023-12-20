@@ -1,8 +1,8 @@
 # Todolist App
 
-Une application Todolist utilisant React, Node.js, Express.js, et PostgreSQL.
+A Todolist application using React, Node.js, Express.js, and PostgreSQL.
 
-## Prérequis
+## Prerequisites
 
 - Node.js
 - npm
@@ -10,35 +10,35 @@ Une application Todolist utilisant React, Node.js, Express.js, et PostgreSQL.
 
 ## Installation
 
-1. Clonez le projet : `git clone https://github.com/glodielukose/PostgresReactTodoApp.git`
-2. Accédez au répertoire : `cd PostgresReactTodoApp`
-3. Installez les dépendances : `npm build`
-4. Créez une base de données PostgreSQL et configurez les paramètres dans le fichier `.env`.
+1. Clone the project: `git clone https://github.com/glodielukose/PostgresReactTodoApp.git`
+2. Navigate to the directory: `cd PostgresReactTodoApp`
+3. Install dependencies: `npm install`
+4. Create a PostgreSQL database and configure the settings in the `.env` file.
 
 ## Configuration
 
-Configurez votre fichier `.env` avec les informations de connexion à la base de données.
+Configure your `.env` file with the database connection information.
 
-## Exécution
+## Execution
 
-1. Lancez le serveur Node.js : `npm run server`
-2. Démarrez l'application React : `npm run client`
+1. Start the Node.js server: `npm run server`
+2. Launch the React application: `npm run client`
 
 ## API Endpoints
 
 ### `GET /`
 
-Récupère la liste des tâches.
+Retrieve the list of tasks.
 
 ### `POST /`
 
-Ajoute une nouvelle tâche.
+Add a new task.
 
-#### Paramètres de la requête
+#### Request Parameters
 
-- `todo`: La description de la tâche.
+- `todo`: The task description.
 
-#### Exemple de Requête
+#### Request Example
 
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{"todo": "Nouvelle tâche"}' http://localhost:3001/
+curl -X POST -H "Content-Type: application/json" -d '{"todo": "New task"}' http://localhost:3001/
